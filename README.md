@@ -11,8 +11,8 @@ A simple web app built with Flask that classifies SMS messages as **Spam** or **
 
 ## Run Locally
 ```bash
-git clone https://github.com/your-username/spam-sms-detection.git
-cd spam-sms-detection
+git clone https://github.com/Lalwaniamisha789/Spam-SMS-Detection.git
+cd Spam-SMS-Detection
 python3 -m venv venv
 source venv/bin/activate  # (Windows: venv\Scripts\activate)
 pip install -r requirements.txt
