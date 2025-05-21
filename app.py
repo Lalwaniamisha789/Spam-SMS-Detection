@@ -2,11 +2,13 @@ from flask import Flask, request, render_template
 import joblib
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
-import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 import string
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
 
 app = Flask(__name__)
 
