@@ -20,6 +20,4 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
 python app.py
 ```
 
-## Visit: http://127.0.0.1:5000
-
 This repository is public and open-source — feel free to fork, clone, and contribute!
