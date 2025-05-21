@@ -7,6 +7,10 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 import string
 import nltk
+import os
+
+nltk_data_path = os.path.join(os.path.dirname(__file__), 'nltk_data')
+nltk.data.path.append(nltk_data_path)
 
 app = Flask(__name__)
 
