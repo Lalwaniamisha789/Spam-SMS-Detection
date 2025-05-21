@@ -1,6 +1,6 @@
-streamlit
-Flask==2.3.2
-joblib==1.3.2
-scikit-learn==1.3.2
-numpy==1.26.4
-nltk==3.8.1
+Flask
+joblib
+scikit-learn
+numpy
+nltk
+gunicorn
