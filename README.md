@@ -9,6 +9,10 @@ A simple web app built with Flask that classifies SMS messages as **Spam** or **
 - Logistic Regression for prediction
 - Instant spam/ham classification result
 
+## Visit: https://spam-sms-detection-oh7p.onrender.com
+
+or
+
 ## Run Locally
 ```bash
 git clone https://github.com/Lalwaniamisha789/Spam-SMS-Detection.git
